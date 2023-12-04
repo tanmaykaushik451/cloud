@@ -1,0 +1,73 @@
+.Navbar{
+
+    &__currency{
+        display: flex;
+        align-items: center;
+        &__image{
+            height: 27px;
+    width: 28px;
+    margin-right: 7px;
+            img{
+                height: 100%;
+                width: 100%;
+                border-radius: 50%;
+                object-fit: contain;
+            }
+        }
+    }
+    .navbar-light .navbar-toggler {
+        // color: rgba(0,0,0,.55);
+        // border-color: none;
+        border: none !important;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #490b3d;
+    }
+}
+@media (min-width: $ipadpro){
+    .container-fluid{
+        padding: 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.5rem;
+        padding-left: 0.5rem;
+    }
+}
+@media (max-width: 992px) {
+
+    .Navbar{
+        &__currency{
+            display: none;
+        }
+    }
+    .navbar-collapse {
+        position: fixed;
+        top: 0px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 75%;
+        height: 100%;
+    }
+
+    .navbar-collapse.collapsing {
+        left: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        transition: left 300ms ease-in-out;
+        background-color: white;
+        z-index: 123123;
+    }
+
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: left 500ms ease-in-out;
+        background: white;
+        z-index: 12312312;
+    }
+}

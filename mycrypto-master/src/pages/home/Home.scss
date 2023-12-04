@@ -1,0 +1,20 @@
+.Home{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 80vh;
+}
+
+@media (max-width: $tablet) {
+  .Home {
+    &__bar{
+    @include basic-wrapping();
+
+    h4{
+      font-size: 12px;
+    }
+    }
+  }
+}

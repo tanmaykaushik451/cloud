@@ -1,0 +1,5 @@
+@media (max-width:$tablet){
+    .Layout{
+        @include basic-margin()
+    }
+}

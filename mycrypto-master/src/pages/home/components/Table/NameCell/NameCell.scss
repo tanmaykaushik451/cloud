@@ -1,0 +1,26 @@
+.NameCell{
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+    height: 100%;
+
+    &__imgdiv{
+        height: 100%;
+        width: 24px;
+        padding-right: 4px;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    &__name{
+        font-weight: 600;
+        padding-right: 4px;
+    }
+    &__nickname{
+        color: $primary-grey;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+}

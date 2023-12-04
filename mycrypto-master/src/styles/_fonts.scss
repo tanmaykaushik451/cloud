@@ -1,0 +1,45 @@
+
+.p,p,span,.span{
+    font-family: $primary-font;
+    font-size: $primary-regular;
+}
+
+.h6,h6{
+    font-family: $primary-font;
+    font-size: $primary-subheading;
+    font-weight: 600;
+}
+
+.h4,h4,.h1,h1{
+    font-weight: 600;
+}
+.small,small{
+    font-family: $primary-font;
+    font-size: 12px;
+}
+
+.text-blue{
+    color: $primary-blue;
+}
+.text-green{
+    color: $primary-green;
+}
+.text-red{
+    color: $primary-red;
+}
+.text-grey{
+    color: $primary-grey;
+}
+.text-purple{
+    color: $primary-purple;
+}
+.text-yellow{
+    color: $primary-yellow;
+}
+.text-maroon{
+    color: $primary-maroon
+}
+
+.bold{
+    font-weight: 600;
+}

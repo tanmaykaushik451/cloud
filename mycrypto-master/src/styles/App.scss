@@ -1,0 +1,35 @@
+@import "./variables";
+@import "./fonts";
+@import "./mixins";
+@import "./buttons";
+@import "../layout/Navbar/Navbar.scss";
+@import "../pages/home/Home.scss";
+@import "../layout/Layout.scss";
+@import "../pages/home/components/Table/Table.scss";
+@import "../pages/home/components/Table/NameCell/NameCell.scss";
+@import "../reuseable/HorizontalCard/HorizontalCard.scss";
+@import "../pages/exchanges/components/ExchangeCard/ExchangeCard.scss";
+@import "../pages/exchanges/Exchanges.scss";
+@import "../pages/home/components/coin/Coin.scss";
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+  // font-weight: 400;
+  // font-size: 14px;
+}
+
+body {
+  min-height: 100vh; 
+}
+main{
+min-height: 80vh;
+}
+
+@media (min-width: $ipadpro) {
+  body {
+    margin: 0 150px;
+  }
+}
+

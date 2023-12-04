@@ -1,0 +1,10 @@
+@mixin basic-margin{
+    margin-left: $primary-ms;
+    margin-right: $primary-me;
+}
+
+@mixin basic-wrapping{
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
